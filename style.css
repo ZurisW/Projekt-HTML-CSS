@@ -161,8 +161,6 @@ footer img:first-child {
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* padding: 20px; */
     width: 100%;
     height: 100%;
   }
@@ -271,7 +269,6 @@ footer img:first-child {
 .szukanie input, select, button {
     font-size: x-large;
     border-width: 0px;
-    /* border-color: #CCCCCC; */
     background-color: #FFFFFF;
     color: #000000;
     border-style: solid;
@@ -280,10 +277,6 @@ footer img:first-child {
 .szukanie input:focus, select:focus {
     outline:none;
 }
-
-/* .navbar{
-    position: sticky;
-} */
 
 .navbar img {
     padding-left: 120px;
@@ -341,12 +334,6 @@ ul {
     overflow: hidden;
 }
 
-/* @media only screen and (max-width: 1920px) {
-    .kategorie{
-        grid-template-columns: repeat(8, 150px); 
-    }
-} */
-
 @media only screen and (max-width: 1680px) {
     .kategorie{
         grid-template-columns: repeat(8, 150px); 
@@ -358,15 +345,15 @@ ul {
 
 @media only screen and (max-width: 1460px) {
     .kategorie{
-        grid-template-columns: repeat(6, 150px); 
-        height: 650px;
+        grid-template-columns: repeat(4, 150px); 
+        height: auto;
     }
     .ogloszenia{
         grid-template-columns: repeat(3, 400px); 
     }
 }
 
-@media only screen and (max-width: 1365px) {
+@media only screen and (max-width: 1366px) {
     .kategorie{
         grid-template-columns: repeat(4, 150px); 
         grid-template-rows: auto;
