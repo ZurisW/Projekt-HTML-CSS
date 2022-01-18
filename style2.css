@@ -17,7 +17,6 @@
 }
 
 .login h1 {
-  background-image: linear-gradient(top, #f1f3f3, #d4dae0);
   border-bottom: 1px solid #a6abaf;
   border-radius: 6px 6px 0 0;
   box-sizing: border-box;
@@ -140,7 +139,6 @@ form input[type="submit"] {
   cursor:pointer;
   border: none;  
   background-color: #0F1F07;
-  background-image: linear-gradient(top,#3db0a6,#3111);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
