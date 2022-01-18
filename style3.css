@@ -1,0 +1,79 @@
+.kontakt {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 600px;
+    width: 100%;
+    background: #0F1F07;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kontakt-input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kontakt-input-text{
+    padding-bottom: 30px;
+    display: block;
+}
+
+#tytul{
+   background: url("https://img.icons8.com/ios/28/000000/title.png") no-repeat 4px 5px;
+
+border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 black;
+  box-sizing: border-box;
+  color: rgba(0, 117, 29, 0.836);
+  height: 40px;
+  margin: 31px 0 0 29px;
+  padding-left: 40px;
+  transition: box-shadow 0.4s;
+  width: 240px;
+}
+
+#tytul::placeholder{
+    color: rgba(0, 117, 29, 0.836);
+}
+
+#tytul:focus {
+    box-shadow: 0 0 4px 1px rgba(0, 117, 29, 0.836);
+    transition: all 0.4s;
+    outline: 0;
+}
+
+.kontakt-input-textarea{
+    width: 100%;
+}
+
+.kontakt-input-textarea textarea:focus {
+    box-shadow: 0 0 4px 1px rgba(0, 117, 29, 0.836);
+    transition: box-shadow 0.4s;
+    outline: 0;
+}
+
+.kontakt-input-textarea textarea::placeholder{
+    color: rgba(0, 117, 29, 0.836);
+}
+
+.kontakt-input-textarea textarea{
+    display: block;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+
+    color:rgba(0, 117, 29, 0.836);
+    font-family: 'Lato', sans-serif;
+}
+
+#submit2 { 
+    padding: 10px;
+    background-color: #0F1F07;
+    color: rgba(0, 117, 29, 0.836);
+    box-shadow: inset 0px 1px 0px #388312, 0px 5px 0px 0px #388312, 0px 10px 5px rgba(0, 117, 29, 0.836);
+}

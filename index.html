@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyToSklep</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scriptmain.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <a href="index.html"><img src="images/MTS.png" alt=""></a>
+                <div id="links">
+                    <ul>
+                        <li><a href="ogloszenie.html">
+                                <p id="ogl">Dodaj ogłoszenie</p>
+                            </a></li>
+                        <li><a href="logowanie.html">
+                                <p id="news">ጸ Zaloguj</p>
+                            </a></li>
+                        <li><a href="kontakt.html">
+                                <p id="ph">&phone; Kontakt</p>
+                            </a></li>
+                        <li><a href="#">
+                                <p id="wiad">✉ Wiadomości</p>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="szukanie">
+            <div>
+                <input type="text" class="search-search" placeholder="19 508 826 ogłoszeń blisko Ciebie">
+            </div>
+            <div>
+                <select name="miejscowosci" class="dropdown-search">
+                    <option value="Rzeszów">Rzeszów</option>
+                    <option value="Dębica">Dębica</option>
+                    <option value="Mielno">Mielno</option>
+                    <option value="Sanok">Sanok</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="button-search">Szukaj</button>
+            </div>
+        </div>
+        <div class="center">
+            <p>Kategorie główne</p>
+        </div>
+        <div class="kategorie">
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="alkoholizm.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://kresy.pl/wp-content/uploads/2019/01/fergeteges-szilveszteri-bulira-keszul-ennyibe-kerul-az-alkohol-a-hipermarketekben_143495.png"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Alkoholizm</span>
+                    </div>
+                </div>
+            </a>
+            <a href="oddamzadarmo.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSHDSyJnGCzXhNee0l3KoQl_WVmtKiu9DMhWGY6pDjRZwNpxKIQXZQssN3xxS1rBUk-0&usqp=CAU"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Oddam za darmo</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+            <a href="motoryzacja.asp">
+                <div class="kategorie-item">
+                    <div class="kategorie-obraz">
+                        <img src="https://st.depositphotos.com/3356953/4622/v/600/depositphotos_46228063-stock-illustration-car-label.jpg"
+                            alt="motoryzacja">
+                    </div>
+                    <div class="kategorie-tytul">
+                        <span>Motoryzacja</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="center">
+            <p>Ogłoszenia promowane w Polsce</p>
+        </div>
+        <div class="ogloszenia">
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img
+                            src="https://7.allegroimg.com/original/03bb56/3c67250c49d587f78d4b1c9a29f7/ZOLTE-AUTO-cars-autko-SWIECACE-KOLA-GRA-JEZDZI-Plec-Chlopcy"
+                            alt="Autko dla dzieci"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Autko dla dzieci TANIE!</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gdańsk - dzisiaj 13:43</p>
+                </div>
+                <div class="cena">
+                    <p>12.30 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img
+                            src="https://static.wikia.nocookie.net/disney/images/0/08/Marek_Marucha9.png/revision/latest?cb=20170512154233&path-prefix=pl"
+                            alt="Auto, oddam za darmo, nawet dopłacę."></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Auto, oddam za darmo, nawet dopłacę.</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Warszawa - 2022-01-05 12:21</p>
+                </div>
+                <div class="cena">
+                    <p>Darmo</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://cdn.gracza.pl/galeria/gry13/1024421218.jpg"
+                            alt="Tajemnicza wyspa, weźcie to ode mnie proszę"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Tajemnicza wyspa, weźcie to ode mnie proszę</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Rzeszów - 2021-12-23 00:01</p>
+                </div>
+                <div class="cena">
+                    <p>Darmo</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img
+                            src="https://ireland.apollo.olxcdn.com/v1/files/pgporwhsa7u22-PL/image;s=644x461"
+                            alt="Lewy"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Lewy</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Piaseczno - wczoraj 20:17</p>
+                </div>
+                <div class="cena">
+                    <p>20 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="obraz">
+                    <a href="autko.asp"><img src="https://images.obi.pl/product/PL/1500x1500/562267_1.jpg"
+                            alt="Sprzedam sedes"></a>
+                </div>
+                <div class="tytul">
+                    <a href="autko.asp"><strong>Sprzedam sedes</strong></a>
+                </div>
+                <div class="lokalizacja">
+                    <p>Gorlice - dzisiaj 05:32</p>
+                </div>
+                <div class="cena">
+                    <p>240 zł</p><a href="index.html"><img
+                            src="https://img.icons8.com/small/50/000000/bookmark-ribbon.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <img src="images/MTS.png" alt="">
+            <p>
+                MTS.pl to darmowe ogłoszenia lokalne w kategoriach: Moda, Zwierzęta, Dla Dzieci, Sport i Hobby, Muzyka i
+                Edukacja. Szybko znajdziesz tu ciekawe ogłoszenia i
+                łatwo skontaktujesz się z ogłoszeniodawcą. Na MTS.pl czeka na Ciebie praca biurowa, mieszkania, pokoje,
+                samochody. Jeśli chcesz coś sprzedać -
+                w prosty sposób dodasz bezpłatne ogłoszenia. Chcesz coś kupić - tutaj znajdziesz ciekawe okazje, taniej
+                niż w sklepie. Sprzedawaj po sąsiedzku na MTS.pl
+            </p>
+            <div class="social">
+
+                <div class="social-icons">
+                    <p>Dołącz do nas!</p>
+                    <a href="https://facebook.com/"><img src="https://img.icons8.com/small/50/000000/facebook-new.png"
+                            alt="" /></a>
+                    <a href="https://instagram.com/"><img src="https://img.icons8.com/small/50/000000/instagram-new.png"
+                            alt="" /></a>
+                    <a href="https://reddit.com"><img src="https://img.icons8.com/small/50/000000/reddit.png"
+                            alt="" /></a>
+                    <a href="https://twitter.com"><img src="https://img.icons8.com/small/50/000000/twitter.png"
+                            alt="" /></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
