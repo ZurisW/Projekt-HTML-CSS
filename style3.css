@@ -77,3 +77,10 @@ border: 1px solid white;
     color: rgba(0, 117, 29, 0.836);
     box-shadow: inset 0px 1px 0px #388312, 0px 5px 0px 0px #388312, 0px 10px 5px rgba(0, 117, 29, 0.836);
 }
+
+@media only screen and (max-width: 570px) {
+    .kontakt-input-textarea textarea{
+        height: 20em;
+        width: 20em;
+    }
+}
