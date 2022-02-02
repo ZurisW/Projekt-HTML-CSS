@@ -74,7 +74,7 @@ border: 1px solid black;
 #submit2 { 
     padding: 10px;
     background-color: #0F1F07;
-    color: rgba(0, 117, 29, 0.836);
+    color: white;
     box-shadow: inset 0px 1px 0px #388312, 0px 5px 0px 0px #388312, 0px 10px 5px rgba(0, 117, 29, 0.836);
 }
 
